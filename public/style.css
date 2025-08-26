@@ -1,0 +1,38 @@
+body{
+    color: rgb(98, 56, 29);
+    text-align: center;
+}
+
+nav{
+    background-color: #c0ac7f;
+    border: 1px solid rgb(88, 76, 61);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 5px;
+}
+
+nav ul li{
+    margin: 0;
+}
+
+nav ul li a{
+    margin: 10px;
+    color: #814c26;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+a:hover{
+    color: #cc7b42;
+    transform: scale(1.05);
+    text-decoration: underline;
+}
