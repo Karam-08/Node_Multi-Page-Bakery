@@ -1,16 +1,23 @@
 {
   "name": "node_multi-page-bakery",
   "version": "1.0.0",
-  "description": "A bakery website",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "Bakery"
-  ],
-  "author": "Karam Abbas",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karam-08/Node_Multi-Page-Bakery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Karam-08/Node_Multi-Page-Bakery/issues"
+  },
+  "homepage": "https://github.com/Karam-08/Node_Multi-Page-Bakery#readme",
   "dependencies": {
     "express": "^5.1.0"
   }
