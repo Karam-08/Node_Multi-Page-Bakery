@@ -1,14 +1,42 @@
+/* General CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    flex-direction: column;
+}
+
 body{
     color: rgb(98, 56, 29);
+    background-color: #cebb90;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#flex-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    margin: 15px;
 }
 
 nav{
-    background-color: #c0ac7f;
-    border: 1px solid rgb(88, 76, 61);
+    background-color: #b7a57a;
+    border: 2px solid rgb(88, 76, 61);
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 5px;
+    width: 100%;
 }
 
 nav ul{
@@ -20,19 +48,43 @@ nav ul{
 }
 
 nav ul li{
-    margin: 0;
+    margin: 10px;
 }
 
 nav ul li a{
     margin: 10px;
-    color: #814c26;
+    padding: 5px;
+    color: #3d2714;
     text-decoration: none;
     padding: 5px;
+    border: 4px double rgb(80, 62, 43);
     border-radius: 8px;
 }
 
 a:hover{
-    color: #cc7b42;
+    background-color: #ea8e4c;
     transform: scale(1.05);
     text-decoration: underline;
+    cursor: pointer;
+}
+
+footer{ 
+    margin-top: auto;
+    padding: 10px;
+}
+
+/* Website specific stuff */
+#logo{
+    max-width: 150px;
+    max-height: 150px;
+    background-color: #dcb18b;
+    border: 4px double rgb(80, 62, 43);
+    border-radius: 100px;
+}
+
+#gallery img{
+    max-width: 250px;
+    max-height: 250px;
+    border: 2px solid #5a5240;
+    border-radius: 8px;
 }
