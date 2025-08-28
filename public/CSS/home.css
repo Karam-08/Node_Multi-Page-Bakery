@@ -5,3 +5,8 @@
     border: 2px solid #5a5240;
     border-radius: 8px;
 }
+
+#text{
+    max-width: 600px;
+    margin: auto;
+}

@@ -1,0 +1,23 @@
+#text{
+    background-color: #ea8e4c;
+    max-width: 900px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 4px double rgb(80, 62, 43);
+    border-radius: 8px;
+}
+
+p{
+    margin-top: 20px;
+}
+
+#link{
+    background-color: #ea8e4c;
+    max-width: 900px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 4px double rgb(80, 62, 43);
+    border-radius: 8px;
+}

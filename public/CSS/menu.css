@@ -1,0 +1,14 @@
+#donuts{
+    float: left;
+}
+
+#coffee{
+    float: right;
+}
+
+section{
+    background-color: #ea8e4c;
+    border: 4px double;
+    border-radius: 8px;
+    padding: 10px;
+}
