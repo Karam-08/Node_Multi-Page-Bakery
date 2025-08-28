@@ -1,0 +1,7 @@
+#gallery img{
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border: 2px solid #5a5240;
+    border-radius: 8px;
+}
