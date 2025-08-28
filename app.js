@@ -10,8 +10,8 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'HTML', 'index.html'))
 })
 
-app.get('/about', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'HTML', 'about.html'))
+app.get('/history', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'HTML', 'history.html'))
 })
 
 app.get('/menu', (req, res) => {
@@ -20,6 +20,10 @@ app.get('/menu', (req, res) => {
 
 app.get('/contact', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'HTML', 'contact.html'))
+})
+
+app.get('/location', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'HTML', 'location.html'))
 })
 
 // Start server
