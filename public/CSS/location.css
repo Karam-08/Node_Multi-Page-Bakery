@@ -1,0 +1,18 @@
+#container{
+    border: 4px double;
+    border-radius: 8px;
+}
+
+section{
+    background-color: #ea8e4c;
+    max-width: 800px;
+}
+
+section ul{
+    list-style: none;
+}
+
+#map{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

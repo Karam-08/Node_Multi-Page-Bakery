@@ -1,14 +1,20 @@
-#donuts{
-    float: left;
-}
-
-#coffee{
-    float: right;
+#container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 30px;
+  max-width: 900px;
+  margin: 30px auto;
 }
 
 section{
-    background-color: #ea8e4c;
-    border: 4px double;
-    border-radius: 8px;
-    padding: 10px;
+  min-width: 300px;
+  background-color: #ea8e4c;
+  border: 4px double;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+section ul{
+    list-style: none;
 }

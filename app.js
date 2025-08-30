@@ -66,7 +66,7 @@ app.get('/location', (req, res) => {
 });
 
 app.get('/contact', (req, res) => {
-  renderPage(path.join(__dirname, 'public', 'HTML', 'contact.html'), res, 'contact', 'contact.css', 'Contact', 'Contact us if you want.');
+  renderPage(path.join(__dirname, 'public', 'HTML', 'contact.html'), res, 'contact', 'contact.css', 'Contact', 'Have something to say about Mocha Glaze? Send us a message!');
 });
 
 

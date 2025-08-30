@@ -1,0 +1,40 @@
+input[type=text], select, textarea{
+    font-family: 'Poppins', 'Comic Neue', cursive, sans-serif;
+    color: rgb(98, 56, 29);
+    background-color: #ea8e4c;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid; 
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit]{
+    font-family: 'Poppins', 'Comic Neue', cursive, sans-serif;
+    background-color: #b86303;
+    padding: 12px 20px;
+    border: 4px double;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #955a06;
+}
+
+#subject{
+    height: 200px;
+}
+
+.container{
+    border-radius: 5px;
+    background-color: #9d8d69;
+    padding: 20px;
+    border: 4px double;
+}
+
+#confirmation{
+    display: none;
+    margin-top: 10px;
+}
